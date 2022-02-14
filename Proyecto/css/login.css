@@ -1,0 +1,76 @@
+body{
+  padding: 0;
+  background-color: #fff;
+}
+.container {
+  margin-left:50%;
+  height: 99%;
+  width: 30%;
+  align-items: center;
+}
+input[type=password], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 15%;
+}
+input[type=text], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 15%;
+}
+input[type=submit] {
+  width: 70%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 15%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.center{
+  background-color: #EDEDED;
+  top: 25%;
+  left: 58%;
+  position: absolute;
+}
+.escudo{
+  position: fixed;
+  right: 55%;
+  max-width: auto%;
+  height: 60%;
+  bottom: 20%;
+}
+.logo{
+  position: fixed;
+  max-width: auto;
+  max-height: : 50%;
+  bottom: 48%;
+
+
+}
+h2{
+  text-align: center;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .escudo, .container, body {
+    width: 100%;
+  }
+}
